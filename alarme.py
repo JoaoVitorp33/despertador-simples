@@ -115,8 +115,8 @@ def tocar_alarme():
     mixer.music.play()
     selecionado.set(0)
 
-    radio = Radiobutton(frame_corpo,command=desativar_alarme, text='Desativar', value=1, variable=selecionado, font=('Arial 8'),bg=co1, fg=co4)
-    radio.place(x=187, y=95)
+radio = Radiobutton(frame_corpo,command=desativar_alarme, text='Desativar', value=1, variable=selecionado, font=('Arial 8'),bg=co1, fg=co4)
+radio.place(x=187, y=95)
 
 
 def alarme():
